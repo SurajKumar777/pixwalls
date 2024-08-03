@@ -29,7 +29,6 @@ List<String> images = [
   "https://www.androidauthority.com/wp-content/uploads/2021/08/Google-Pixel-6-Wallpapers-2-scaled.jpg",
   "https://images.pexels.com/photos/2050244/pexels-photo-2050244.jpeg?cs=srgb&dl=pexels-arthur-ogleznev-2050244.jpg&fm=jpg",
   "https://i.pinimg.com/originals/33/39/9f/33399f43d8336dcfcc3673f05abb501c.jpg",
-  "https://cutewallpaper.org/21/car-wallpaper-hd-download/Car-Wallpapers-Free-by-ZEDGEa_cent_.jpg",
 ];
 
 List<dynamic> favImages = [];

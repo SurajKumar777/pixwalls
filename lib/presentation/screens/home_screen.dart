@@ -16,27 +16,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ColorScheme colorScheme = Theme.of(context).colorScheme;
-    final Color oddItemColor = colorScheme.primary.withOpacity(0.05);
-    final Color evenItemColor = colorScheme.primary.withOpacity(0.15);
-    final List<int> items = List<int>.generate(51, (int index) => index);
-
-    // void setWallpaperHandler(context, url, location) async {
-    //   try {
-    //     var file = await DefaultCacheManager().getSingleFile(url); //image file
-
-    //     await AsyncWallpaper.setWallpaperFromFile(
-    //       filePath: file.path,
-    //       wallpaperLocation: location,
-    //       goToHome: false,
-    //       toastDetails: ToastDetails.success(),
-    //       errorToastDetails: ToastDetails.error(),
-    //     );
-    //   } catch (e) {
-    //     log(e.toString());
-    //   }
-    // }
-
     return Scaffold(
       appBar: AppBar(
         title: CustomText(

@@ -11,11 +11,15 @@ class PreviewScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          CachedNetworkImage(
-            fit: BoxFit.fill,
-            imageUrl: url,
-            placeholder: (context, url) => const CircularProgressIndicator(),
-            errorWidget: (context, url, error) => const Icon(Icons.error),
+          SizedBox(
+            height: MediaQuery.of(context).size.height,
+            width: MediaQuery.of(context).size.width,
+            child: CachedNetworkImage(
+              fit: BoxFit.fill,
+              imageUrl: url,
+              placeholder: (context, url) => const CircularProgressIndicator(),
+              errorWidget: (context, url, error) => const Icon(Icons.error),
+            ),
           ),
         ],
       ),
